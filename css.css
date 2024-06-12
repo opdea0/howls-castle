@@ -67,27 +67,27 @@ header img {
 }
 
 .preview {
-  width: 17%;
+  width: 24%;
   height: auto;
   position: relative; 
-  top: 270px;
-  left: 68px;
+  top: 440px;
+  left: 680px;
 }
 
 .netflix {
-  width: 20%;
+  width: 24%;
   height: auto;
   position: relative; 
-  top: 320px;
-  right: 122px;
+  top: 540px;
+  right: -435px;
 }
 
 .title {
   font-family: 'Gothic', sans-serif;
   font-size: 40px;
   text-align: center;
-  margin-top: -845px;
-  margin-right: -220px;
+  margin-top: -870px;
+  margin-right: -230px;
 }
 
 .subtitle {
@@ -125,9 +125,9 @@ header img {
   text-align: left;
   position: relative;
   left: 70px;
-  margin-top: 230px;
+  margin-top: 160px;
   margin-right: 129px;
-  line-height: 2.0;
+  line-height: 3.0;
 }
 
 .divider-second {
@@ -143,7 +143,7 @@ header img {
   display: block;
   margin: 0 auto;
   height: auto;position: relative; 
-  top: -600px;
+  top: -650px;
 }
 
 .netflix {
@@ -153,33 +153,27 @@ header img {
 .video-container {
   position: relative;
   padding-bottom: 56.25%; /* 16:9비율 */
-  padding-top: 30px;
-  width: 1080px; 
-  height: px;
-  margin-top: -3px;
-  margin-left: 265px;
+  width: 700px; 
+  height: 20px;
   overflow: hidden;
+  left: 60px;
+  top: 55px;
 }
 
-.video-container iframe {
-  position: absolute;
-  width: 20%;
-  height: 20%;
-}
+.video-container {
+      margin-bottom: 20px;
+    }
 
 .video-container-second {
   position: relative;
   padding-bottom: 56.25%; /* 16:9비율 */
-  padding-top: 30px;
-  width: 1080px; 
-  height: px;
-  margin-top: -593px;
-  margin-left: 510px;
+  width: 700px; 
+  height: 20px;
   overflow: hidden;
+  left: 60px;
+  top: -200px; 
 }
 
-.video-container-second iframe {
-  position: absolute;
-  width: 20%;
-  height: 20%;
-}
+.video-container-second {
+      margin-top: 40px;
+    }
